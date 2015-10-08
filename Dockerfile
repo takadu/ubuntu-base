@@ -5,7 +5,7 @@ MAINTAINER Adi Baron <adi.baron@takadu.com>
 # apt stuff
 RUN \
   apt-get update && \
-  apt-get install ca-certificates curl git zsh -y
+  apt-get install ca-certificates curl wget git zsh -y
 
 # user
 RUN \
